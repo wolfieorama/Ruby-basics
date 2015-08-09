@@ -90,3 +90,11 @@ hash_brown = {
 
 puts hash_brown["topping_2"]
 puts hash_brown["topping_3"]
+
+first_hash = Hash.new 
+	
+first_hash["first_name"] = "jacob"
+first_hash["nick_name"] = "day"
+first_hash["last_name"] = "williams"
+
+puts first_hash["nick_name"]
