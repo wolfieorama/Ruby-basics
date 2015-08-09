@@ -1,7 +1,18 @@
-print "please type your first name."
+facebook = Hash.new
 
-user_input = gets.chomp.capitalize
+puts "please type your first name."
+facebook["user_input"] = gets.chomp.capitalize
 
-puts "your first name is #{user_input}!"
+puts "what is your age?"
+facebook["age"] = gets.chomp
 
-puts "your name in upper case is #{user_input.upcase}."
+puts "how many kids do u have ?"
+facebook["kid_amount"] = gets.chomp
+
+puts "are you male or female?"
+facebook["sex"] = gets.chomp
+
+
+
+
+puts facebook
