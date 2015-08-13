@@ -12,7 +12,7 @@ def is_prime?(number)
   end
 end
 
-puts is_prime?(111)
+puts is_prime?(27)
 
 puts('is_prime?(2) == true: ' + (is_prime?(2) == true).to_s)
 puts('is_prime?(3) == true: ' + (is_prime?(3) == true).to_s)
