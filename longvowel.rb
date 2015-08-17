@@ -1,6 +1,4 @@
-
 require_relative '/home/wolfieorama/Desktop/ruby_modules/longest_vowel'
-
 
 def longvowel(sen)
 

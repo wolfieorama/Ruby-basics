@@ -10,7 +10,7 @@ end
 
 my_test {|x| puts "next #{x}"
 puts "hello"
-puts "bye"
+puts "bye i won\'t be returning "
 puts "happy #{x}"
 puts "==========="
 puts "==========="}
