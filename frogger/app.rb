@@ -11,7 +11,7 @@ Cuba.define do
         <body>
           <h1>Welcome to this super Awesome App</h1>
           <h2>and its more than awesome...</h2>
-          <h3>and its preloads awesome...</h3>
+          <h3>and its preloads awesomed...</h3>
         </body>
     </html>
     ")
