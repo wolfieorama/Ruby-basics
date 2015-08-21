@@ -25,7 +25,7 @@ Cuba.define do
       res.write "Filename: #{file}" #=> "Filename: basic"
     end
 
-    # /post/2011/02/16/hello
+    #
     on "post/:y/:m/:d/:slug" do |y, m, d, slug|
       res.write "#{y}-#{m}-#{d} #{slug}" #=> "2011-02-16 hello"
     end
