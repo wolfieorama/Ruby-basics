@@ -12,6 +12,9 @@ end
  if arr2 == arr
   return true
  else
-   return false
+  return false
  end
 end
+
+puts is_isogram("string")
+puts is_isogram("mississippi")
