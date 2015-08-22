@@ -1,10 +1,10 @@
 toast = Proc.new do |numbers|
-  puts "#{number} procs have never been easy"
-  puts "#{number} procs take a ,block of code and wrap it"
-  puts "#{number} procs are like functions in that you can call them"
-  puts "#{number} procs dont have objects bound to them"
-  puts "#{number} procs are objects"
-  puts "#{number} procs is a short for procedure"
+  puts "#{numbers} procs have never been easy"
+  puts "#{numbers} procs take a ,block of code and wrap it"
+  puts "#{numbers} procs are like functions in that you can call them"
+  puts "#{numbers} procs dont have objects bound to them"
+  puts "#{numbers} procs are objects"
+  puts "#{numbers} procs is a short for procedure"
 end
 
 toast.call 'one'
