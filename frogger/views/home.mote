@@ -1,0 +1,7 @@
+% gems = ["rack", "cuba", "mote"]
+
+<ul>
+% gems.sort.each do |gem|
+  <li>{{ gem }}</li>
+% end
+</ul>
