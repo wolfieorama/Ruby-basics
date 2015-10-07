@@ -9,7 +9,6 @@ def adds_up(array1, array2, array3)
       if x[0] + x[1] == k
         sum = x[0] + x[1]
         arr_result.push(x.push(sum))
-
       end
     end
   end
